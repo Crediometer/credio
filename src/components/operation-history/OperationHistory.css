@@ -1,0 +1,34 @@
+.operation-history-page {
+    position: absolute;
+    left: 362px;
+    top: 116px;
+    width: 76%;
+    height: 900px;
+    background: #E5E5E5;
+}
+
+.current-date {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #787878;
+}
+
+.operation-historys {
+    position: absolute;
+    left: 4%;
+    top: 22%;
+}
+
+.operation-histories {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.operation-history-card {
+    width: 900px;
+    height: 90px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}

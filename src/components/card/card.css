@@ -1,0 +1,207 @@
+.card-page {
+    position: absolute;
+    left: 362px;
+    top: 116px;
+    width: 76%;
+    height: 900px;
+    background: #E5E5E5;
+}
+
+.card-page-heading {
+    position: absolute;
+    left: 4%;
+    top: 4%;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 58px;
+    color: #861F41;
+}
+
+.cards-details-heading {
+    position: absolute;
+    left: 6%;
+    top: 12%;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #212020;
+}
+
+.cards-details-card {
+    position: absolute;
+    left: 6%;
+    top: 18%;
+    width: 700px;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(4px);
+    border-radius: 40px;
+}
+
+.card-details-information {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.information-heading {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.information {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.card-details-atm-card {
+    width: 300px;
+    height: 320px;
+    position: absolute;
+    top: 0%;
+}
+
+.add-another-card {
+    position: absolute;
+    left: 70%;
+    top: 30%;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #982C31
+}
+
+.cards-details-page-balance-show {
+    position: absolute;
+    left: 70%;
+    top: 5%;
+    width: 300px;
+    height: 113px;
+    background: #91152A;
+    border-radius: 8px;
+}
+
+.your-balance {
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.balance-show {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF
+}
+
+.what-you-look {
+    position: absolute;
+    left: 6%;
+    top: 55%;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 54px;
+    color: #982C31;
+}
+
+.account-section {
+    position: absolute;
+    left: 6%;
+    top: 65%;
+}
+
+.account-action-heading {
+    width: 250px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.account-action-card {
+    width: 480px;
+    height: 96px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.account-action {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.pink-card {
+    width: 60px;
+    height: 50px;
+    background: #FFE2BF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.what-you-want {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 20%;
+    top: 15%;
+}
+
+.what-you-want-to-do {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.what-you-do {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #9B9898;
+}
+
+.greater-than {
+    position: absolute;
+    left: 90%;
+    top: 40%;
+}
+
+.transfer-bw-acct {
+    visibility: hidden;
+}
+
+.transfer-bw-acct-show {
+    visibility: visible;
+    z-index: 100;
+}
+
+.transfer-by-card-no {
+    visibility: hidden;
+}
+
+.transfer-by-card-show {
+    visibility: visible;
+    z-index: 100;
+}
+
+.operation-history {
+    visibility: hidden;
+}
+
+.operation-history-show {
+    visibility: visible;
+    z-index: 100;
+}

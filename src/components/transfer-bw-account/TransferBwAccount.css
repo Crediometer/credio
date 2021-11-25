@@ -1,0 +1,104 @@
+.transfer-bw-acct-page {
+    position: absolute;
+    left: 362px;
+    top: 116px;
+    width: 76%;
+    height: 900px;
+    background: #E5E5E5;
+}
+
+.transfer-bw-acct-heading {
+    position: absolute;
+    left: 4%;
+    top: 4%;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 58px;
+    color: #861F41;
+}
+
+.sub-heading {
+    position: absolute;
+    left: 6%;
+    top: 12%;
+}
+
+.people {
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 48px;
+    color: #363636;
+}
+
+.input-people {
+    margin-top: 1rem;
+    height: 50px;
+    width: 900px;
+}
+
+.transfer-by-accounts {
+    position: absolute;
+    left: 4%;
+    top: 25%;
+}
+
+.transfer-by-account {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.transfer-by-acct-card {
+    width: 900px;
+    height: 90px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.transfer-by-acct-dp {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 4%;
+    top: 20%;
+}
+
+.transfer-by-acct-info {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 13%;
+    top: 20%;
+}
+
+.transfer-by-acct-name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.transfer-by-acct-phone {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #9B9898;
+}
+
+.transfer-by-acct-transfer {
+    position: absolute;
+    left: 85%;
+    top: 30%;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #861F41;
+}
+
+.transfer-icons {
+    font-size: 20px;
+}

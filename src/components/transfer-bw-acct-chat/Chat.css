@@ -1,0 +1,160 @@
+.chat-page {
+    position: absolute;
+    left: 362px;
+    top: 116px;
+    width: 76%;
+    height: 900px;
+    background: #E5E5E5;
+}
+
+.chat-head-section {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 6%;
+    top: 15%;
+}
+
+.fa-less-than {
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+.chat-section-dp {
+    margin-left: 1rem;
+}
+
+.chat-section-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.chat-section {
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    width: 900px;
+    height: 550px;
+    background: #E5E5E5;
+}
+
+.payment-to-you-card {
+    position: absolute;
+    top: 6%;
+    left: 6%;
+    width: 300px;
+    height: 150px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.payment-by-you-card {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    width: 300px;
+    height: 150px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.chat-payment-info {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+
+.to-you-heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.for-what {
+    margin-top: -0.5rem;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    color: #9B9898;
+}
+
+.payment-amount {
+    margin-top: -0.5rem;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 72px;
+    color: #861F41;
+}
+
+.sending-time {
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #9B9898;
+}
+
+.message-card {
+    position: absolute;
+    top: 86%;
+    left: 7%;
+    width: 900px;
+    height: 100px;
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-pay {
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    left: 6%;
+    top: 15%;
+    background: #861F41;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+.btn-request {
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    background: #861F41;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+.mb-3 {
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    left: 60%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.fa-paper-plane {
+    margin-top: 1.5rem;
+    color: #861F41;
+    cursor: pointer;
+}

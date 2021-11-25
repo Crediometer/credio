@@ -1,0 +1,208 @@
+.home-page {
+    position: absolute;
+    left: 362px;
+    top: 116px;
+    width: 76%;
+    height: 900px;
+}
+
+.heading {
+    position: absolute;
+    left: 4%;
+    top: 4%;
+    width: 817px;
+    height: 81px;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 69px;
+    color: #861F41;
+}
+
+.finance-card {
+    position: absolute;
+    left: 4%;
+    top: 15%;
+    width: 500px;
+    height: 275px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.card-title {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.sort-by {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #9B9898;
+}
+
+.finance-graph {
+    position: absolute;
+    bottom: 50px;
+    width: 450px;
+}
+
+.recent-transactions-card {
+    position: absolute;
+    left: 4%;
+    top: 50%;
+    width: 500px;
+    height: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.current-transaction-date {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #787878;
+    padding-top: 10px;
+}
+
+.recent-transaction {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.transaction-card {
+    width: 55px;
+    height: 53px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.transaction-to-from {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.transaction-amount {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.transfer-whom {
+    width: 220px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.transfer-time {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 33px;
+    color: #9B9898;
+}
+
+.amount {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 33px;
+    color: #861F41;
+}
+
+.transaction-reason {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 33px;
+    color: #9B9898;
+}
+
+.your-card-heading {
+    position: absolute;
+    top: 14%;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #363636;
+}
+
+.home-page-atm-card {
+    position: absolute;
+    top: 22%;
+}
+
+.second-atm-card {
+    position: absolute;
+    left: 39%;
+    top: 40%;
+}
+
+.your-chat-heading {
+    position: absolute;
+    top: 52%;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #363636;
+}
+
+.home-chat-section {
+    position: absolute;
+    top: 58%;
+}
+
+.chat-box-card {
+    width: 500px;
+    height: 95px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.chat-dp {
+    position: absolute;
+    top: 15%;
+    left: 38px;
+    width: 50px;
+    height: 50px;
+}
+
+.chat-information {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 117px;
+    top: 20px;
+}
+
+.sender-name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.last-msg {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #C4C4C4;
+}
+
+.msg-time {
+    position: absolute;
+    left: 400px;
+    top: 32px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    color: #9B9898;
+}
